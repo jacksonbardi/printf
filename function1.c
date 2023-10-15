@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*<<<<<<<<<< PRINT UNSIGNED NUMBER >>>>>>>>>>*/
-/* Function: print_unsigned
+/* Function:print_unsigned
  * Description: Prints an unsigned long integer to the specified buffer.
  * Parameters:
  *   - types: A variable argument list.
@@ -37,8 +37,8 @@ int print_unsigned(va_list types, char buffer[],
 }
 
 /************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
-/* Function: print_octal
- * Description: Prints the octal representation of an unsigned long integer to the specified buffer.
+/* Function:print_octal
+ * Dscrptn: Prnts the octal rprsnttn of an unsgnd lng intger to the spcfed bffer.
  * Parameters:
  *   - types: A variable argument list.
  *   - buffer: The destination buffer for the printed octal representation.
@@ -81,7 +81,7 @@ int print_octal(va_list types, char buffer[],
 
 /*<<<<<<<<<< PRINT UNSIGNED NUMBER IN HEXADECIMAL >>>>>>>>>>*/
 /* Function: print_hexadecimal
- * Description: Prints the lowercase hexadecimal representation of an unsigned long integer to the specified buffer.
+ * Dscrptn: Prnts the lowrcse hxdcmal reprsnttn of an unsgnd lng intgr to the spcifd buffr.
  * Parameters:
  *   - types: A variable argument list.
  *   - buffer: The destination buffer for the printed lowercase hexadecimal representation.
@@ -99,11 +99,11 @@ int print_hexadecimal(va_list types, char buffer[],
 }
 
 /*<<<<<<<<<< PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL >>>>>>>>>>*/
-/* Function: print_hexa_upper
- * Description: Prints the uppercase hexadecimal representation of an unsigned long integer to the specified buffer.
+/* Function:print_hexa_upper
+ * Dscrtn: Prnts the upprcse hexdcml reprsnttn of an unsgnd long intgr to the spcfd bffr.
  * Parameters:
  *   - types: A variable argument list.
- *   - buffer: The destination buffer for the printed uppercase hexadecimal representation.
+ *   - buffer: The destntn buffer for the printed upprcase hexadcmal represntatn.
  *   - flags: Flags for formatting.
  *   - width: Width for formatting.
  *   - precision: Precision for formatting.
@@ -118,12 +118,12 @@ int print_hexa_upper(va_list types, char buffer[],
 }
 
 /*<<<<<<<<<< PRINT HEXX NUM IN LOWER OR UPPER >>>>>>>>>>*/
-/* Function: print_hexa
- * Description: Prints the hexadecimal representation of an unsigned long integer to the specified buffer.
+/* Function:print_hexa
+ * Dscriptn: Prints the hexdecimal reprsnttin of an unsigned long integer to the spcfd bffer.
  * Parameters:
  *   - types: A variable argument list.
  *   - map_to: Array mapping hexadecimal digits.
- *   - buffer: The destination buffer for the printed hexadecimal representation.
+ *   - buffer: The destination buffer for the printed hexadecimal reprsentatin.
  *   - flags: Flags for formatting.
  *   - flag_ch: The character for flag formatting.
  *   - width: Width for formatting (not used in this function).

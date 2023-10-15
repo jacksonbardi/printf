@@ -1,10 +1,10 @@
 #include <main.h>
 
-/* Function: get_precision
+/* Function:get_precision
  * Description: Extracts precision value from the format string and returns it.
  * Parameters:
  *   - format: The format string.
- *   - i: Pointer to the current index in the format string (updated to the end of the precision).
+ *   - i: Pnter to the crrnt indx the frmt strng (updted to the end of the prcisn).
  *   - list: Variable argument list.
  * Return: The precision value.
  */
